@@ -1,0 +1,213 @@
+body{
+    font-family: 'Playfair Display', 'Montserrat', serif;
+}
+.header{
+    background-color: #3853D8;
+           width: 100%;         
+}
+.top_nav{
+    height: 80px;
+    max-width: 1170px;
+    color: white!important;
+}
+/*Цвет топ меню */
+.navbar .navbar-brand{
+    color: white!important;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-style: italic;
+    }   
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        color: white!important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: white!important;
+    }
+/*Цвет топ меню */
+
+.index_slider_bg{
+    margin-top: -24px;
+    background-color: #3853D8;
+    width: 100%;
+}
+.index_slider{
+    height: 635px;
+    background-color: #3853D8;
+    max-width: 1170px;
+}
+
+.banner{
+    background-color: white;
+    max-width:  1280px;
+    height: 150px;
+    border: 1px solid #aaaa;
+    margin: 0 auto;
+    margin-top: -75px;
+    border-radius: 10px;
+}
+
+/* Секции товаров */
+
+.product_1{
+    margin: 10px auto;
+    height: 300px;
+    max-width:  1280px;
+    border: 1px solid #aaaa;
+}
+.product_2{
+    margin: 10px auto;
+    height: 300px;  
+    max-width:  1280px;
+    border: 1px solid #aaaa;
+    }
+.product_3{
+    margin: 10px auto;
+    height: 300px;
+    max-width:  1280px;
+    border: 1px solid #aaaa;
+}
+.slider_page{
+    margin: 10px auto;
+    height: 300px;
+    max-width:  1280px;
+    border: 1px solid #aaaa;
+}
+
+
+
+
+/* Подвал сайта*/
+.footer{
+    width: 100%;
+    height:100%;
+    background-color: #363637;
+    margin-top: 0px;
+ 
+}
+.foot_brand{
+    margin-left: 25px;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.foot_menu{
+    font-family: 'Montserrat';
+     margin-left: -20px; 
+    margin-top: 48px;
+    color: white;
+    font-size: 12px;
+}
+.foot_menu ul li{
+    padding-left: 35px;
+    display: inline;
+    font-family: 'Montserrat';
+}
+.foot_contact{
+    padding-left: 0px;
+    margin-top: 48px;
+    color: white;
+    width: 250px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+}
+.social{
+    margin-top:-25px;
+   
+}
+.social a{
+    font-family: 'Montserrat';
+    padding-left: 22px;
+    margin-left: -12px;
+    color: #999999;
+    text-decoration: none;
+}
+.subs_form {
+    margin-top:-25px;
+    margin-left: 30px;
+}
+.subs_form p{
+    font-family: 'Montserrat';
+     color: white;
+    font-size: 12px;
+    
+}
+.subs_form input{
+    font-family: 'Montserrat';
+    color: #959595;
+    font-weight: 600;
+    width: 320px;
+    font-size: 10px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border: 0;
+}
+
+.btn_foot{
+    width: 140px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    height: 39px;
+    background-color: white;
+    margin-left: 10px;
+    border: 0;
+}
+.btn_foot:hover{
+      background-color: #9ABCBF;
+    font-size: 12px;
+   }
+   .foot_contact_info{
+    margin-left: -40px;
+    margin-top: -15px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat';
+   }
+
+   @media (max-width:720px) and (min-width:360px){
+    .foot_brand{
+ padding-left: 0;
+    margin: 40px auto;
+      
+   }
+   .foot_menu{
+    padding-left: 0;
+    margin: 20px auto;
+    width: auto;
+
+}
+.foot_menu ul li{
+     display: inherit;
+}
+.foot_contact{
+    
+    margin: 20px auto;
+    width:auto;
+    width: auto;
+
+}
+.social{
+    margin: 20px auto;
+    width: auto;
+}
+.social a{
+    margin: 20px auto;
+}
+.subs_form {
+    margin: 20px auto;
+    width: auto;
+}
+
+.subs_form input{
+
+    width: auto;
+}
+.btn_foot{
+    width: auto;
+    margin-left: 10px;
+ }
+
+}

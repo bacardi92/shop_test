@@ -1,0 +1,22 @@
+2018-03-18T00:25:12+00:00 CRITICAL Call to undefined function wp_header()
+
+2018-03-18T00:25:15+00:00 CRITICAL Call to undefined function wp_header()
+
+2018-03-18T00:25:15+00:00 CRITICAL Call to undefined function wp_header()
+
+2018-03-18T00:25:15+00:00 CRITICAL Call to undefined function wp_header()
+
+2018-03-18T00:25:16+00:00 CRITICAL Call to undefined function wp_header()
+
+2018-03-18T00:25:18+00:00 CRITICAL Call to undefined function wp_header()
+
+2018-03-18T13:23:17+00:00 CRITICAL Call to undefined function wpstore_posted_on()
+
+2018-03-18T13:26:00+00:00 CRITICAL Call to undefined function wpstore_post_thumbnail()
+
+2018-03-18T13:27:30+00:00 CRITICAL Call to undefined function theshop_posted_on()
+
+2018-03-18T13:28:17+00:00 CRITICAL Call to undefined function wpstore_post_thumbnail()
+
+2018-03-18T13:29:41+00:00 CRITICAL Call to undefined function the_posted_on()
+
