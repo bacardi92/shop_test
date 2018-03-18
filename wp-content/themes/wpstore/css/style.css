@@ -3,7 +3,7 @@ body{
 }
 .header{
     background-color: #3853D8;
-           width: 100%;         
+    width: 100%;
 }
 .top_nav{
     height: 80px;
@@ -11,22 +11,36 @@ body{
     color: white!important;
 }
 /*Цвет топ меню */
+
+.nav-item{
+    padding-left: 60px;
+    color: white;
+
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 12px ;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: #B0B0B0;
+}
+
+
 .navbar .navbar-brand{
+    padding-right: 30px;
     color: white!important;
     font-family: 'Playfair Display';
     font-weight: bold;
     font-style: italic;
-    }   
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-        color: white!important;
-    }
-    .navbar-light .navbar-nav .nav-link{
-        color: white!important;
-    }
-/*Цвет топ меню */
+}
+
+/* топ меню */
 
 .index_slider_bg{
-    margin-top: -24px;
     background-color: #3853D8;
     width: 100%;
 }
@@ -45,6 +59,55 @@ body{
     margin-top: -75px;
     border-radius: 10px;
 }
+/* 4 колонки с доствкой*/
+.ban_cont{
+    width: auto;
+    border-right: 1px solid  #999999;
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+}
+.ban_cont_last{
+    width: auto;
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+}
+.icon{
+    font-size: 40px;
+    color: #999999;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: -20%;
+}
+.ban_text{
+    display: inline-block;
+
+}
+.ban_text h4{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+.ban_text p{
+    font-size: 12px;
+    color: #999999;
+    font-family: 'Montserrat';
+}
+
+@media (min-width:300px) and (max-width:720px){
+    .banner{
+        height:100%;
+    }
+    .ban_cont{
+        width: auto;
+        border-right: 0px solid  #999999;
+        margin-top: 20px;
+    }
+}
+
+/* 4 колонки с доствкой*/
+
 
 /* Секции товаров */
 
@@ -52,14 +115,14 @@ body{
     margin: 10px auto;
     height: 300px;
     max-width:  1280px;
-    border: 1px solid #aaaa;
+    /* border: 1px solid #aaaa; */
 }
 .product_2{
     margin: 10px auto;
-    height: 300px;  
+    height: 300px;
     max-width:  1280px;
     border: 1px solid #aaaa;
-    }
+}
 .product_3{
     margin: 10px auto;
     height: 300px;
@@ -82,7 +145,7 @@ body{
     height:100%;
     background-color: #363637;
     margin-top: 0px;
- 
+
 }
 .foot_brand{
     margin-left: 25px;
@@ -94,7 +157,7 @@ body{
 }
 .foot_menu{
     font-family: 'Montserrat';
-     margin-left: -20px; 
+    margin-left: -20px;
     margin-top: 48px;
     color: white;
     font-size: 12px;
@@ -114,7 +177,7 @@ body{
 }
 .social{
     margin-top:-25px;
-   
+
 }
 .social a{
     font-family: 'Montserrat';
@@ -129,9 +192,9 @@ body{
 }
 .subs_form p{
     font-family: 'Montserrat';
-     color: white;
+    color: white;
     font-size: 12px;
-    
+
 }
 .subs_form input{
     font-family: 'Montserrat';
@@ -156,58 +219,58 @@ body{
     border: 0;
 }
 .btn_foot:hover{
-      background-color: #9ABCBF;
+    background-color: #9ABCBF;
     font-size: 12px;
-   }
-   .foot_contact_info{
+}
+.foot_contact_info{
     margin-left: -40px;
     margin-top: -15px;
     color: white;
     font-size: 12px;
     font-family: 'Montserrat';
-   }
+}
 
-   @media (max-width:720px) and (min-width:360px){
+@media (max-width:720px) and (min-width:360px){
     .foot_brand{
- padding-left: 0;
-    margin: 40px auto;
-      
-   }
-   .foot_menu{
-    padding-left: 0;
-    margin: 20px auto;
-    width: auto;
+        padding-left: 0;
+        margin: 40px auto;
 
-}
-.foot_menu ul li{
-     display: inherit;
-}
-.foot_contact{
-    
-    margin: 20px auto;
-    width:auto;
-    width: auto;
+    }
+    .foot_menu{
+        padding-left: 0;
+        margin: 20px auto;
+        width: auto;
 
-}
-.social{
-    margin: 20px auto;
-    width: auto;
-}
-.social a{
-    margin: 20px auto;
-}
-.subs_form {
-    margin: 20px auto;
-    width: auto;
-}
+    }
+    .foot_menu ul li{
+        display: inherit;
+    }
+    .foot_contact{
 
-.subs_form input{
+        margin: 20px auto;
+        width:auto;
+        width: auto;
 
-    width: auto;
-}
-.btn_foot{
-    width: auto;
-    margin-left: 10px;
- }
+    }
+    .social{
+        margin: 20px auto;
+        width: auto;
+    }
+    .social a{
+        margin: 20px auto;
+    }
+    .subs_form {
+        margin: 20px auto;
+        width: auto;
+    }
+
+    .subs_form input{
+
+        width: auto;
+    }
+    .btn_foot{
+        width: auto;
+        margin-left: 10px;
+    }
 
 }

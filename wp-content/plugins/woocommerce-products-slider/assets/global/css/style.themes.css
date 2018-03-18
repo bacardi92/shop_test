@@ -665,10 +665,11 @@ z-index:9;
 
 	}
 .skin.contentbottom .layer-content {
-  background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
-  bottom: 0;
+  /*background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;*/
+  /*bottom: 35%;*/
   color: rgb(255, 255, 255);
-  left: 0;
+  /*left: 0;*/
+  margin: -200px 40%;
   position: absolute;
   transition: all 1s ease 0s;
   width: 100%;

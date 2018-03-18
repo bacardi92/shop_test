@@ -477,9 +477,9 @@ right: -30px;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 100%
+    width: auto;
     }
 
 .wcps-container  .wcps-terms {
